@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand Prakash Jaiswal | Software Engineer (Flutter, Android & Backend)</title>
+  <meta name="description" content="Portfolio of Anand Prakash Jaiswal - Software Engineer at BEL specializing in Flutter, Android Native (Kotlin), Spring Boot 3.2, Clean Architecture, and Cloud Systems.">
+  <meta name="keywords" content="Anand Prakash Jaiswal, Flutter Developer, Android Engineer, Spring Boot, Java, Clean Architecture, BLoC, BEL, Software Engineer">
+  <meta name="author" content="Anand Prakash Jaiswal">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Anand Prakash Jaiswal | Software Engineer">
+  <meta property="og:description" content="Software Engineer at BEL engineering robust cross-platform mobile apps and cloud systems.">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <div class="nav-logo-badge">APJ</div>
+        <span>Anand Prakash</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Featured Project</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" id="openResumeBtn">📄 View Resume</button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div>
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Opportunities • Software Engineer</span>
+          </div>
+
+          <h1 class="hero-title">
+            Engineering High-Performance <span class="gradient-text">Mobile Apps & Cloud Backends</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Hi, I am <b>Anand Prakash Jaiswal</b>, Software Engineer at <b>Bharat Electronics Limited (BEL)</b>. I architect enterprise-grade systems with <b>Flutter</b>, <b>Android Native (Kotlin)</b>, and <b>Spring Boot 3.2</b>, enforcing Clean Architecture and zero-downtime cloud reliability.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary btn-glow">🚀 Explore Flagship Project</a>
+            <button class="btn btn-secondary" id="heroResumeBtn">📄 ATS Resume</button>
+            <a href="https://github.com/Anand9120" target="_blank" class="btn btn-secondary">💻 GitHub</a>
+            <a href="https://linkedin.com/in/anand-prakash-jaiswal" target="_blank" class="btn btn-secondary">🔗 LinkedIn</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>1+ Yrs</h3>
+              <p>Enterprise Experience (BEL)</p>
+            </div>
+            <div class="stat-item">
+              <h3>10+</h3>
+              <p>Decoupled App Modules</p>
+            </div>
+            <div class="stat-item">
+              <h3>85%+</h3>
+              <p>Clean Arch Test Coverage</p>
+            </div>
+            <div class="stat-item">
+              <h3>99.9%</h3>
+              <p>Live Cloud Uptime</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="floating-badge floating-badge-1">
+            <span style="font-size: 1.5rem;">📱</span>
+            <div>
+              <div style="font-weight: 700; font-size: 0.9rem;">Clean Architecture</div>
+              <div style="font-size: 0.75rem; color: #94a3b8;">BLoC + SOLID + 60 FPS</div>
+            </div>
+          </div>
+
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">EngineerProfile.kt</div>
+            </div>
+            <div class="terminal-body">
+              <div class="code-line"><span class="line-num">1</span><span><span class="code-keyword">data class</span> <span class="code-func">Engineer</span>(</span></div>
+              <div class="code-line"><span class="line-num">2</span><span>&nbsp;&nbsp;<span class="code-keyword">val</span> name: String = <span class="code-string">"Anand Prakash Jaiswal"</span>,</span></div>
+              <div class="code-line"><span class="line-num">3</span><span>&nbsp;&nbsp;<span class="code-keyword">val</span> company: String = <span class="code-string">"Bharat Electronics Ltd (BEL)"</span>,</span></div>
+              <div class="code-line"><span class="line-num">4</span><span>&nbsp;&nbsp;<span class="code-keyword">val</span> primaryStack: List&lt;String&gt; = listOf(</span></div>
+              <div class="code-line"><span class="line-num">5</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Flutter / Dart"</span>, <span class="code-string">"Android (Kotlin)"</span>,</span></div>
+              <div class="code-line"><span class="line-num">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Java 17 / Spring Boot 3"</span>, <span class="code-string">"Docker & Cloud"</span></span></div>
+              <div class="code-line"><span class="line-num">7</span><span>&nbsp;&nbsp;),</span></div>
+              <div class="code-line"><span class="line-num">8</span><span>&nbsp;&nbsp;<span class="code-keyword">val</span> focus: String = <span class="code-string">"Scalability & Security"</span></span></div>
+              <div class="code-line"><span class="line-num">9</span><span>)</span></div>
+              <div class="code-line"><span class="line-num">10</span><span><span class="code-comment">// High availability & 60 FPS zero-overflow rendering</span></span></div>
+            </div>
+          </div>
+
+          <div class="floating-badge floating-badge-2">
+            <span style="font-size: 1.5rem;">☁️</span>
+            <div>
+              <div style="font-weight: 700; font-size: 0.9rem;">Spring Boot 3.2 & Docker</div>
+              <div style="font-size: 0.75rem; color: #34d399;">24/7 Live Cloud Container</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Core Philosophy</span>
+        <h2 class="section-title">Bridging Mobile UX with <span class="gradient-text">Cloud Resilience</span></h2>
+        <p class="section-desc">
+          I build mobile and cloud systems that perform reliably in the real world—handling flaky 2G networks, low-RAM hardware, and zero-downtime cloud deployments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section class="section" id="experience" style="background: rgba(0, 0, 0, 0.2);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Career Journey</span>
+        <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+        <p class="section-desc">Track record of building enterprise-grade applications conforming to strict security and quality standards.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- BEL -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-role-row">
+              <div>
+                <h3 class="timeline-role">Software Engineer</h3>
+                <div class="timeline-company">Bharat Electronics Limited (BEL)</div>
+              </div>
+              <span class="timeline-period">Apr 2025 – Present</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Architected core modules for <b>SUVITT</b>, an enterprise financial super-app with <b>10+ decoupled feature modules</b> using Flutter SDK & Dart, communicating via Android Native (Kotlin) MethodChannels for hardware security.</li>
+              <li>Enforced <b>Clean Architecture (Presentation, Domain, Data)</b> and BLoC state management across all features, boosting unit test coverage to <b>85%+</b> and adhering strictly to SOLID principles.</li>
+              <li>Implemented offline-first data caching with encrypted <b>SQLite (sqflite)</b> and Dio interceptors, reducing network payload latency by <b>40%</b> and eliminating data loss during intermittent connectivity.</li>
+              <li>Optimized UI rendering pipelines for Material 3 and iOS standards, eliminating RenderFlex layout overflows and maintaining stable <b>60 FPS performance</b> on budget 2GB Android devices.</li>
+              <li>Spearheaded defense-grade security protocols including native <b>FLAG_SECURE</b> against screen-recording/malware, biometric authentication, and AES-256 storage, passing zero-vulnerability <b>VAPT compliance</b> audits.</li>
+              <li>Automated release pipelines (R8/ProGuard code shrinking, Jenkins CI/CD), reducing APK bundle size by <b>28%</b> with zero-defect deployments through SonarQube quality gates.</li>
+            </ul>
+            <div class="tag-list">
+              <span class="tag">Flutter</span>
+              <span class="tag">Kotlin MethodChannels</span>
+              <span class="tag">BLoC</span>
+              <span class="tag">Clean Architecture</span>
+              <span class="tag">VAPT Security</span>
+              <span class="tag">Jenkins CI/CD</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Appz Global -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-role-row">
+              <div>
+                <h3 class="timeline-role">Flutter Developer</h3>
+                <div class="timeline-company">Appz Global Tech Pvt. Ltd.</div>
+              </div>
+              <span class="timeline-period">Jan 2025 – Mar 2025</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Engineered responsive, cross-platform mobile apps from scratch using Flutter SDK, Dart, and Provider/BLoC state management, accelerating client delivery timelines by <b>25%</b>.</li>
+              <li>Integrated Firebase Auth, Firestore real-time databases, and Crashlytics, reducing production crash rates by <b>30%</b> through proactive exception tracking and structured local caching.</li>
+            </ul>
+            <div class="tag-list">
+              <span class="tag">Flutter</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Provider</span>
+              <span class="tag">Crashlytics</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Software Solutions Intern -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-role-row">
+              <div>
+                <h3 class="timeline-role">Flutter Developer Intern</h3>
+                <div class="timeline-company">Software Solutions</div>
+              </div>
+              <span class="timeline-period">Jan 2024 – Jun 2024</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Built <b>15+ production-ready responsive mobile screens</b> for service management platforms, ensuring pixel-perfect adherence to design systems and multi-resolution compatibility.</li>
+              <li>Connected and validated secure RESTful API endpoints; actively participated in Agile sprint rituals and code reviews.</li>
+            </ul>
+            <div class="tag-list">
+              <span class="tag">Flutter UI</span>
+              <span class="tag">REST Integration</span>
+              <span class="tag">Agile/Scrum</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project Showcase -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Flagship Project</span>
+        <h2 class="section-title">Domestic Maid Attendance & <span class="gradient-text">Payroll System</span></h2>
+        <p class="section-desc">An end-to-end full-stack solution addressing domestic employment wage transparency with geofenced verification, offline resilience, and 24/7 cloud availability.</p>
+      </div>
+
+      <div class="flagship-card">
+        <div class="flagship-header">
+          <div>
+            <div class="flagship-badge">
+              <span class="status-dot"></span>
+              <span>Live 24/7 on Render Cloud • UptimeRobot 100% UP</span>
+            </div>
+            <h3 class="flagship-title">Automated Attendance & Digital Payroll Ledger</h3>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="https://domestic-maid-attendance-backend.onrender.com/swagger-ui.html" target="_blank" class="btn btn-primary btn-sm">🌐 Live Swagger Docs</a>
+            <a href="https://github.com/Anand9120/domestic-maid-attendance" target="_blank" class="btn btn-secondary btn-sm">💻 GitHub Repo</a>
+          </div>
+        </div>
+
+        <p class="flagship-desc">
+          Replaces dispute-prone paper registers with an automated geofenced mobile check-in engine and cloud REST API. Features an offline-first Hive buffer for flaky cellular connections, Haversine 50-meter household boundary verification with anti-GPS-spoofing, and a memory-tuned Docker container running 24/7 on the cloud with $0 infrastructure expense.
+        </p>
+
+        <!-- Real-Time Interactive API Ping Tester -->
+        <div class="live-api-tester">
+          <div class="api-tester-info">
+            <span style="font-size: 1.5rem;">⚡</span>
+            <div>
+              <div style="font-weight: 700; font-size: 0.95rem;">Live Cloud API Status (Render Container)</div>
+              <div style="font-size: 0.8rem; color: #94a3b8;">Endpoint: <code class="mono" style="color: #38bdf8;">/health</code> | Monitored by UptimeRobot</div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div class="api-result-badge" id="apiResultBadge">Checking status...</div>
+            <button class="api-ping-btn" id="pingApiBtn">🔄 Ping API Now</button>
+          </div>
+        </div>
+
+        <div class="flagship-grid">
+          <div class="feature-box">
+            <span class="feature-icon">📍</span>
+            <h4 class="feature-title">50m Haversine Geofencing</h4>
+            <p class="feature-text">
+              Calculates great-circle distance with a mandatory 3-minute dwell-time validation to eliminate pass-by triggers. Rejects mock-location & fake GPS apps.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <span class="feature-icon">📴</span>
+            <h4 class="feature-title">Offline-First Hive DB Sync</h4>
+            <p class="feature-text">
+              Buffers arrival events locally with tamper-proof device timestamps when network is lost. Auto-syncs to cloud backend instantly upon reconnection.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <span class="feature-icon">🐳</span>
+            <h4 class="feature-title">Tuned Cloud DevOps ($0)</h4>
+            <p class="feature-text">
+              Multi-stage Alpine Docker container with JVM heap tuning (<code class="mono">-Xmx350m, SerialGC</code>) running stably inside 512MB RAM cloud limits with synthetic keep-alive pings.
+            </p>
+          </div>
+        </div>
+
+        <div class="tag-list">
+          <span class="tag">Flutter 3.x</span>
+          <span class="tag">Java 17</span>
+          <span class="tag">Spring Boot 3.2</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Render.com</span>
+          <span class="tag">UptimeRobot</span>
+          <span class="tag">Hive DB</span>
+          <span class="tag">OpenAPI 3.0</span>
+          <span class="tag">JWT Auth</span>
+          <span class="tag">Haversine Geofencing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix -->
+  <section class="section" id="skills" style="background: rgba(0, 0, 0, 0.2);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Technical Arsenal</span>
+        <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+        <p class="section-desc">A comprehensive stack covering cross-platform mobile development, cloud backends, and DevOps pipelines.</p>
+      </div>
+
+      <div class="skills-filter">
+        <button class="filter-btn active" data-category="all">All Skills</button>
+        <button class="filter-btn" data-category="mobile">Mobile & Native</button>
+        <button class="filter-btn" data-category="backend">Backend & Cloud</button>
+        <button class="filter-btn" data-category="storage">Database & Storage</button>
+        <button class="filter-btn" data-category="devops">Security & DevOps</button>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Mobile -->
+        <div class="skill-card" data-category="mobile">
+          <div class="skill-icon">💙</div>
+          <div class="skill-info">
+            <h4>Flutter SDK & Dart</h4>
+            <p>Cross-Platform, BLoC, Cubit</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="mobile">
+          <div class="skill-icon">🤖</div>
+          <div class="skill-info">
+            <h4>Android Native (Kotlin)</h4>
+            <p>MethodChannels, System APIs</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="mobile">
+          <div class="skill-icon">🏗️</div>
+          <div class="skill-info">
+            <h4>Clean Architecture</h4>
+            <p>SOLID, Domain Driven, MVVM</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="mobile">
+          <div class="skill-icon">⚡</div>
+          <div class="skill-info">
+            <h4>60 FPS & Zero-Overflow UI</h4>
+            <p>Material 3, Responsive Layouts</p>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-icon">🍃</div>
+          <div class="skill-info">
+            <h4>Spring Boot 3.2</h4>
+            <p>RESTful Microservices, JPA</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="backend">
+          <div class="skill-icon">☕</div>
+          <div class="skill-info">
+            <h4>Java 17</h4>
+            <p>OOP, Modern Concurrency, Streams</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="backend">
+          <div class="skill-icon">🔐</div>
+          <div class="skill-info">
+            <h4>Spring Security 6</h4>
+            <p>Stateless JWT, Role-Based Access</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="backend">
+          <div class="skill-icon">📑</div>
+          <div class="skill-info">
+            <h4>OpenAPI / Swagger 3</h4>
+            <p>API Contracts & Documentation</p>
+          </div>
+        </div>
+
+        <!-- Storage -->
+        <div class="skill-card" data-category="storage">
+          <div class="skill-icon">🗄️</div>
+          <div class="skill-info">
+            <h4>SQLite & sqflite</h4>
+            <p>Encrypted Local Caching</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="storage">
+          <div class="skill-icon">📦</div>
+          <div class="skill-info">
+            <h4>Hive DB</h4>
+            <p>High-Performance NoSQL Buffer</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="storage">
+          <div class="skill-icon">🔥</div>
+          <div class="skill-info">
+            <h4>Firebase Platform</h4>
+            <p>Firestore, FCM, Crashlytics, Auth</p>
+          </div>
+        </div>
+
+        <!-- DevOps & Security -->
+        <div class="skill-card" data-category="devops">
+          <div class="skill-icon">🐳</div>
+          <div class="skill-info">
+            <h4>Docker</h4>
+            <p>Multi-Stage Builds, JVM Tuning</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="devops">
+          <div class="skill-icon">🛡️</div>
+          <div class="skill-info">
+            <h4>VAPT & Mobile Security</h4>
+            <p>FLAG_SECURE, AES-256, ProGuard/R8</p>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="devops">
+          <div class="skill-icon">🔄</div>
+          <div class="skill-info">
+            <h4>CI/CD & Code Quality</h4>
+            <p>Jenkins, SonarQube, Git</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Get In Touch</span>
+        <h2 class="section-title">Let's Build Something <span class="gradient-text">Exceptional</span></h2>
+        <p class="section-desc">Open for engineering roles, technical collaboration, and discussions on high-performance mobile & cloud systems.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <a href="mailto:jaiswalprakashanand@gmail.com" class="contact-card">
+            <div class="contact-card-icon">✉️</div>
+            <div class="contact-card-info">
+              <h4>Email</h4>
+              <p>jaiswalprakashanand@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="tel:+919120715587" class="contact-card">
+            <div class="contact-card-icon">📞</div>
+            <div class="contact-card-info">
+              <h4>Phone</h4>
+              <p>+91 9120715587</p>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com/in/anand-prakash-jaiswal" target="_blank" class="contact-card">
+            <div class="contact-card-icon">🔗</div>
+            <div class="contact-card-info">
+              <h4>LinkedIn</h4>
+              <p>in/anand-prakash-jaiswal</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/Anand9120" target="_blank" class="contact-card">
+            <div class="contact-card-icon">💻</div>
+            <div class="contact-card-info">
+              <h4>GitHub</h4>
+              <p>github.com/Anand9120</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label" for="formName">Your Name</label>
+              <input type="text" id="formName" class="form-control" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="formEmail">Your Email</label>
+              <input type="email" id="formEmail" class="form-control" placeholder="john@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="formSubject">Subject</label>
+              <input type="text" id="formSubject" class="form-control" placeholder="Opportunity / Discussion" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="formMessage">Message</label>
+              <textarea id="formMessage" class="form-control" rows="4" placeholder="Hi Anand, I came across your portfolio..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-glow" style="width: 100%;">🚀 Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Modal -->
+  <div class="modal-overlay" id="resumeModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.2rem;">📄</span>
+          <h3 style="font-size: 1.1rem; color: #fff;">ATS-Optimized Resume • Anand Prakash Jaiswal</h3>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button class="btn btn-secondary btn-sm" id="copyResumeBtn">📋 Copy Clean Text</button>
+          <button class="modal-close" id="closeResumeBtn">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body" id="resumeContentText">ANAND PRAKASH JAISWAL
+Software Engineer – Flutter, Android Native & Backend Systems
+India | +91 9120715587 | jaiswalprakashanand@gmail.com
+LinkedIn: linkedin.com/in/anand-prakash-jaiswal | GitHub: github.com/Anand9120
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+Software Engineer with 1+ year of production experience engineering enterprise-grade, high-performance mobile applications and cloud-backed microservices. Proven expertise at Bharat Electronics Limited (BEL) building secure financial systems with Clean Architecture, BLoC/Provider, and Kotlin native MethodChannels. Strong background in offline-first data caching, mobile security (VAPT, FLAG_SECURE, AES-256), 24/7 cloud deployments (Docker, Spring Boot, Render), and high-reliability REST API integrations.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+• Languages: Dart, Kotlin, Java 17, SQL, Bash
+• Mobile Frameworks: Flutter SDK, Android Native (Kotlin/Java), iOS Cupertino Standards
+• Architecture & State: Clean Architecture, BLoC/Cubit, Provider, SOLID Principles, MVVM, Dependency Injection (get_it)
+• Backend & Cloud: Spring Boot 3.2, Spring Security 6, RESTful APIs, OpenAPI/Swagger, Docker, Render, UptimeRobot, JWT
+• Databases & Storage: SQLite (sqflite), Hive DB (NoSQL), H2, MySQL, Firebase Firestore, FlutterSecureStorage (AES-256)
+• Mobile Security & VAPT: FLAG_SECURE, Biometric Auth, ProGuard/R8, SSL Pinning, Token Refresh Interceptors (Dio)
+• DevOps & Tooling: Git, GitHub, Jenkins CI/CD, SonarQube, Postman, Google Play Console
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+Bharat Electronics Limited (BEL)                                     Apr 2025 – Present
+Software Engineer | Ghaziabad, India
+• Architected core modules for SUVITT, an enterprise financial super-app with 10+ decoupled modules using Flutter SDK & Dart, communicating via Android Native (Kotlin) MethodChannels for hardware security.
+• Enforced Clean Architecture (Presentation, Domain, Data) and BLoC state management across all features, boosting unit test coverage to 85%+ and ensuring strict adherence to SOLID principles.
+• Implemented offline-first data synchronization with encrypted SQLite (sqflite) and Dio interceptors, reducing network payload latency by 40% and eliminating data loss during intermittent connectivity.
+• Optimized UI rendering pipelines for Material 3 and iOS standards, eliminating RenderFlex layout overflows and maintaining stable 60 FPS performance on budget 2GB Android devices.
+• Spearheaded defense-grade security protocols including native FLAG_SECURE against screen-recording/malware, biometric authentication, and AES-256 storage, passing zero-vulnerability VAPT compliance audits.
+• Automated release build pipelines (R8/ProGuard code shrinking, Jenkins CI/CD), reducing APK bundle size by 28% and ensuring zero-defect deployments through SonarQube quality gates.
+
+Appz Global Tech Pvt. Ltd.                                          Jan 2025 – Mar 2025
+Flutter Developer | India
+• Developed cross-platform mobile applications from scratch using Flutter SDK, Dart, and Provider/BLoC state management, accelerating client feature delivery timelines by 25%.
+• Integrated Firebase Auth, Firestore real-time databases, and Crashlytics, reducing production crash rates by 30% through proactive exception tracking and structured local SQLite caching.
+
+Software Solutions                                                  Jan 2024 – Jun 2024
+Flutter Developer Intern | India
+• Built 15+ production-ready responsive mobile screens for service management platforms, ensuring pixel-perfect adherence to design systems and multi-resolution device compatibility.
+• Connected and validated secure RESTful API endpoints; actively collaborated in Agile sprint rituals and code reviews.
+
+================================================================================
+FEATURED PROJECTS (Full-Stack & Mobile)
+================================================================================
+Domestic Maid Attendance & Transparent Payroll System (Full-Stack)
+Tech Stack: Flutter (BLoC), Java 17, Spring Boot 3.2, Docker, Render Cloud, UptimeRobot, Hive DB
+Live Demo / API: https://domestic-maid-attendance-backend.onrender.com/swagger-ui.html
+GitHub: https://github.com/Anand9120/domestic-maid-attendance
+• Engineered an end-to-end attendance & payroll tracking platform with Flutter Clean Architecture client and a containerized Spring Boot 3.2 REST API.
+• Designed a 50-meter Haversine geofence engine with 3-minute dwell-time verification and anti-mock-location hardware checks to prevent fraudulent check-ins.
+• Built an offline-first resilient event queue using Hive DB, buffering attendance events locally during zero-network conditions and auto-syncing upon reconnect.
+• Packaged backend using multi-stage Docker builds; optimized JVM heap (-Xmx350m, SerialGC) to operate reliably under strict 512MB RAM cloud limits on Render.
+• Integrated automated synthetic keep-alive health checks via UptimeRobot, achieving 99.9% uptime at $0 infrastructure cost with zero cold-start delay.
+
+================================================================================
+EDUCATION
+================================================================================
+B.Tech in Computer Science & Engineering                           2020 – 2024
+NITRA Technical Campus, Ghaziabad | CGPA: 7.98 / 10.0
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com/Anand9120" target="_blank" class="footer-social-link" title="GitHub">💻</a>
+        <a href="https://linkedin.com/in/anand-prakash-jaiswal" target="_blank" class="footer-social-link" title="LinkedIn">🔗</a>
+        <a href="mailto:jaiswalprakashanand@gmail.com" class="footer-social-link" title="Email">✉️</a>
+        <a href="tel:+919120715587" class="footer-social-link" title="Phone">📞</a>
+      </div>
+      <p>© 2026 Anand Prakash Jaiswal. Engineered with passion for Clean Architecture & Scalability.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
